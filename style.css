@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-family: 'Arial', sans-serif;
 }
 
 #particles-js {
@@ -25,13 +26,13 @@ body {
 }
 
 .title {
-    font-size: 4rem;
+    font-size: 3rem;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
 .tagline {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-top: 10px;
 }
 
@@ -45,7 +46,7 @@ body {
 }
 
 .content-wrapper {
-    
+    font-size: 1.1rem;
     left: 1cm;
     top: 1cm;
     padding: 1cm;
@@ -96,4 +97,8 @@ footer {
     opacity: 0;
     transform: translateY(20px);
     animation: fadeInUp 1s forwards 0.5s; /* Delay the animation for Section 2 */
+}
+
+h2 {
+    font-size: 2rem; /* Increase the font size for section headings */
 }

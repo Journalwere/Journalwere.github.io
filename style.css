@@ -54,7 +54,6 @@ body {
 }
 
 footer {
-    background-color: #05014a;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -101,4 +100,13 @@ footer {
 
 h2 {
     font-size: 2rem; /* Increase the font size for section headings */
+}
+
+.logo {
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+.logo img {
+    width: 230px; /* Adjust the width of the logo as needed */
+    height: auto; /* Maintain aspect ratio */
 }
